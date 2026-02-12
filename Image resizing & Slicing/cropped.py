@@ -6,7 +6,7 @@ if image is None:
     print("Image not found")
 else:
     print("Loaded image")
-    # cropping img into (100,100)
+    # cropping img into (200,200) pixels
     cropped_img = image[100:300, 100:300]
 
     cv2.imshow("Original Image", image)
