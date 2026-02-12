@@ -7,6 +7,7 @@ if image is None:
 else:
     print("Loaded image")
     # cropping img into (200,200) pixels
+    # [startY:endY (Height), startX:endX (width)]
     cropped_img = image[100:300, 100:300]
 
     cv2.imshow("Original Image", image)
