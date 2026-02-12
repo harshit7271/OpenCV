@@ -8,4 +8,11 @@ image = cv2.imread("colouredTurtle copy.png", flag)
 if image is None:
     print("Image not found or failed to load")
 else:
-    print("Image loaded successfully:", image.shape)
+    print("Image loaded successfully:", image)
+
+
+# dimensions
+if image is not None:
+    h, w, c = image.shape
+    print(
+        f"Height od image: {h}\nWidth of the image: {w}\nColour channels: {c}")
