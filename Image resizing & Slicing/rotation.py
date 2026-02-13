@@ -6,7 +6,7 @@ if image is None:
     print("Image not found bhai")
 
 else:
-    (h, w) = image.shape[:2]
+    (w, h) = image.shape[:2]
     centre = (w//2, h//2)
 
     M = cv2.getRotationMatrix2D(centre, 45, 0.5)   # (centre, angle, scale)
