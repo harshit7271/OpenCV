@@ -7,7 +7,7 @@ if image is None:
 else:
     print("Loaded")
 
-    cv2.circle(image, (250, 170), 150, (0, 255, 0), thickness=-1)
+    cv2.circle(image, (250, 170), 100, (0, 255, 0), thickness=-1)
 
     cv2.imshow("Circle", image)
 
