@@ -1,2 +1,2 @@
 # OpenCV
-Complete OpenCV repository
+Complete OpenCV repository from scratch
